@@ -25,7 +25,7 @@ public class MobileController {
 		
 		
 		model.addAttribute("msg", str2);
-		
+		System.out.println("OK"+"--陈恒志");
 		return "mobile";
 	}
 
